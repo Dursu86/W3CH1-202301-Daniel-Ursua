@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
     "@types/jest": "^29.4.0",
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
@@ -35,7 +36,8 @@
   "babel": {
     "env": {
       "test": {
-        "plugins": [
+        "plugins":
+        [
           "@babel/plugin-transform-modules-commonjs"
         ]
       }
